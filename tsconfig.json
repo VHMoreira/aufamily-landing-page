@@ -18,6 +18,21 @@
     "paths": {
       "themes/*": [
         "./src/themes/*"
+      ],
+      "store/*": [
+        "./src/store/*"
+      ],
+      "screens/*": [
+        "./src/screens/*"
+      ],
+      "containers/*": [
+        "./src/containers/*"
+      ],
+      "components/*": [
+        "./src/components/*"
+      ],
+      "helpers/*": [
+        "./src/helpers/*"
       ]
     }
   },

@@ -1,12 +1,8 @@
 import { applyMiddleware, createStore, Middleware } from 'redux'
 import { createWrapper } from 'next-redux-wrapper'
 import { combineReducers } from '@reduxjs/toolkit'
-import { CounterState, reducer as CounterReducer } from './repositories/counter'
+import { reducer as CounterReducer } from './repositories/counter'
 import { composeWithDevTools } from 'redux-devtools-extension'
-
-export interface State{
-  counter: CounterState
-}
 
 const rootReducer = combineReducers({
   counter: CounterReducer

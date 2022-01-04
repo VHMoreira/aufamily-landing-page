@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import { useDispatch, useSelector } from 'react-redux'
-import { State } from 'src/store'
-import { decrementCounter, incrementCounter } from 'src/store/repositories/counter'
+import { decrementCounter, incrementCounter } from 'store/repositories/counter'
 
 const Home: NextPage = () => {
   const { count } = useSelector(({counter: {count}}: State) => ({
